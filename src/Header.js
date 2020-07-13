@@ -9,8 +9,8 @@ class Header extends React.Component {
     }
     render() {
         return (
-            <div>
-                <img src={prva} className="img img-responsive margin-bottom" />
+            <div className="pictureBox">
+                <img src={prva} className="margin-bottom" />
                 {/* <BrowseArtists /> */}
             </div>
         )

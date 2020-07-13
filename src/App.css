@@ -15,8 +15,13 @@ body {
 }
 .margin-bottom{
   margin-bottom:20px;
-  height: 100vh;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.pictureBox{
+  height: 800px;
 }
 .flex{
   display:flex;
